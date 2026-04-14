@@ -17,6 +17,17 @@ const Footer = () => {
               <li>ASIC & IP Development</li>
               <li>Crypto Technology</li>
               <li>Technical Consulting</li>
+              <li>
+                <a
+                  href="https://www.atombeacon.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="rounded-sm underline-offset-2 hover:text-primary-foreground hover:underline focus-visible:text-primary-foreground focus-visible:underline focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-foreground/70"
+                >
+                  Atom Beacon™
+                  <span className="sr-only"> (opens in new tab)</span>
+                </a>
+              </li>
             </ul>
           </div>
           
