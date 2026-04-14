@@ -37,6 +37,19 @@ const About = () => {
 
             <Card className="p-6 shadow-primary hover:shadow-glow transition-all duration-300">
               <CardContent className="p-0">
+                <h3 className="text-2xl font-semibold mb-4 text-primary">Industrial Mining</h3>
+                <p className="text-muted-foreground">
+                  We deploy specialized proof-of-work miners for Scrypt networks—Litecoin,
+                  Dogecoin, and other Scrypt-based merge-mined coins—and for kHeavyHash network Kaspa,
+                  with expansion to Zorkcoin next as we expand that footprint. Outsourced hosting with facility
+                  partners keeps operations efficient and scalable while grounding our work in
+                  real hashrate, economics, and network behavior.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="p-6 shadow-primary hover:shadow-glow transition-all duration-300">
+              <CardContent className="p-0">
                 <h3 className="text-2xl font-semibold mb-4 text-primary">ASIC & IP Development</h3>
                 <p className="text-muted-foreground">
                   We're preparing to expand into Application-Specific Integrated Circuit (ASIC) 

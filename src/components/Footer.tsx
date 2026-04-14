@@ -12,8 +12,9 @@ const Footer = () => {
           
           <div>
             <h4 className="text-lg font-semibold mb-4">Focus Areas</h4>
-            <ul className="space-y-2 text-primary-foreground/80">
+            <ul className="grid grid-cols-2 grid-rows-3 grid-flow-col gap-x-6 gap-y-2 text-primary-foreground/80">
               <li>Blockchain R&D</li>
+              <li>Industrial PoW Mining (Scrypt &amp; kHeavyHash)</li>
               <li>ASIC & IP Development</li>
               <li>Crypto Technology</li>
               <li>Technical Consulting</li>
