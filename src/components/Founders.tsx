@@ -55,7 +55,7 @@ const Founders = () => {
         <div className="relative rounded-lg overflow-hidden shadow-mountain">
           <img 
             src={coloradoImage} 
-            alt="Colorado Innovation Landscape"
+            alt="Pikes Peak seen from Colorado Springs"
             className="w-full h-64 object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-primary/80 to-transparent flex items-center">
