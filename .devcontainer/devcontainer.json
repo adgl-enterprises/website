@@ -1,0 +1,29 @@
+{
+  "name": "ADGL Mountain Tech",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:22-bookworm",
+
+  "forwardPorts": [8080, 4173],
+  "portsAttributes": {
+    "8080": {
+      "label": "Vite dev",
+      "onAutoForward": "notify"
+    },
+    "4173": {
+      "label": "Vite preview",
+      "onAutoForward": "silent"
+    }
+  },
+
+  "postCreateCommand": "npm ci",
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "bradlc.vscode-tailwindcss"
+      ]
+    }
+  },
+
+  "remoteUser": "node"
+}
