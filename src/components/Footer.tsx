@@ -33,7 +33,7 @@ const Footer = () => {
         
         <div className="border-t border-primary-foreground/20 pt-8 text-center">
           <p className="text-primary-foreground/60">
-            © 2024 ADGL Enterprises, LLC. All rights reserved.
+            © 2026 ADGL Enterprises, LLC. All rights reserved.
           </p>
           <p className="text-primary-foreground/60 mt-2 text-sm">
             3472 Research Pkwy Ste 104 Pmb 623, Colorado Springs, CO 80920
